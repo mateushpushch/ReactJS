@@ -9,7 +9,7 @@ function ButtonsPanel(props) {
             <button onClick={() => { 
                 // console.log('Add clicked!')
                 props.buttonMethod('add'); 
-            }}>Add 1</button>
+            }}>Add</button>
             <button onClick={() => {props.buttonMethod('reinit');}}>ReInit</button>
             <button onClick={() => {props.buttonMethod('reset');}}>Reset</button>
         </div>    

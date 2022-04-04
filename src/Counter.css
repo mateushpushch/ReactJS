@@ -1,4 +1,5 @@
 .counter {
+    position: relative;
     border: 1px solid darkblue;
     padding: 30px;
     width: 300px;
